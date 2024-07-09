@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ardiasyah</title>
+    <style>
+        #gambar {
+            width: 150px;
+            height: 150px;
+            background-color: gray;
+            display: block;
+            border-radius: 0;
+            transition: all 1.5s;
+            margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <button id="gambar" onclick="ubahGambar()">tekan ya!</button>
+        <br><br>
+        
+        <label for="color1">Warna Pertama :</label>
+        <input type="text" id="color1" placeholder="Contoh: red">
+        <br><br>
+        <label for="color2">Warna Kedua :</label>
+        <input type="text" id="color2" placeholder="Contoh: blue">
+        <br><br>
+        <label for="color3">Warna Ketiga :</label>
+        <input type="text" id="color3" placeholder="Contoh: green">
+        <br><br>
+        <button onclick="ubahwarna()" id="submit" onmouseover="masuk()" onmouseout="keluar()">Submit</button>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
